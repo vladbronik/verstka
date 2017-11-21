@@ -1,0 +1,165 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+/****************************************************************/
+*{
+	box-sizing: border-box;	
+	font-size: 16px;
+}
+
+@font-face {
+font-family: "League Gothic";
+src: url(9115-webfont.woff);
+}
+html{
+	font-family: "League Gothic";
+}
+
+body{
+	max-width: 1900px;
+}
+.container {
+	width: 1170px;
+}
+.homepage{
+	background-image:url(img/header_bg1.png);
+	background-size:cover;
+}
+
+.main-head{
+	min-height:1179px;
+	background-size: cover;
+	background-position:center;
+	position: relative;
+	padding-top: 50px;
+}
+
+.main-head:before{
+	content:' ';
+	width: 51.3%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background-image: url(img/die.png);
+	opacity: .50;
+}
+
+.top-line{
+	/*margin-left:18%;
+	margin-right:18%;*/
+}
+
+.top-mnu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	float: right;
+}
+.top-mnu li{
+	display: inline-block;
+	line-height: 48px;
+}
+
+.logo{
+	float:left;
+	margin-right: 5px;
+}
+.logotext{
+	font-size:14px;
+	color: white;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+
+
+/* Menu */
+
+.menu {
+  background: #555 url('img/menu-bg.jpg') ;
+  left: -285px;
+  height: 100%;
+  position: fixed;
+  width: 285px;
+ /* z-index:100;*/
+}
+
+
+.action{
+	margin-top: 210px;
+}
+
+.actiontext{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 131px;
+	border: 5px solid rgba(112,112,114, 0.5);
+	width: 650px;	
+}
+.actiontext p{
+	font-size: 70px;
+	color: white;
+	font-family: "League Gothic";
+	margin-bottom: 30px;
+    line-height: 60px;
+}
+
+
+.actiontext span{
+	font-size: 18px;
+	color: white;
+	margin-top: 10px;
+}
+.pagination{ 
+position: absolute;
+margin-left:41px;
+margin-top:370px;
+}
+
+.socialnetworks{
+	position:fixed;
+	right:0;
+	top: 370px;	
+	margin-right: 20px;
+}
+.socialnetworks a img{
+	margin-bottom: 20px;
+}
+
+.aboutus{
+	margin-top:-228px;
+	height: 968px;
+	background-color:white;
+	z-index:100;
+}
+
+
