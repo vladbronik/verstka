@@ -44,19 +44,17 @@ html{
 }
 
 body{
-	max-width: 1900px;
-}
-.container {
-	width: 1170px;
+	max-width: 1920px;
 }
 .homepage{
 	background-image:url(img/header_bg1.png);
 	background-size:cover;
+	max-width:100%;
+height:auto;
 }
 
 .main-head{
 	min-height:1179px;
-	background-size: cover;
 	background-position:center;
 	position: relative;
 	padding-top: 50px;
@@ -65,7 +63,7 @@ body{
 .main-head:before{
 	content:' ';
 	width: 51.3%;
-	height:100%;
+	height:968px;
 	position: absolute;
 	left:0;
 	top:0;
@@ -140,7 +138,7 @@ body{
 	margin-top: 10px;
 }
 .pagination{ 
-position: absolute;
+position: fixed;
 margin-left:41px;
 margin-top:370px;
 }
@@ -155,11 +153,43 @@ margin-top:370px;
 	margin-bottom: 20px;
 }
 
+.action2{
+	height: 868px;
+}
+.container_aboutus{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
 .aboutus{
-	margin-top:-228px;
+	margin-top:-208px;
 	height: 968px;
-	background-color:white;
 	z-index:100;
+	background-image:url(img/aboutus_background2.png);
+	background-repeat: no-repeat;
+	background-position:left bottom;
+
+}
+.aboutus_left h1{ 
+  font-size: 50px;
+  font-family: "BebasNeueRegulasar";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  margin: 195px 0 50px 0;
+}
+.aboutus_left p{ 
+  font-size: 18px;
+  font-family: "HelveticaNeueCyr";
+  color: rgb(128, 128, 128);
+  line-height: 1.2;
+   margin-bottom: 30px;
+}
+.aboutus_background3{
+width: 570px;	
+}
+
+.aboutus_background3 img{
+	width: 570px;
+	height:868px;
 }
 
 
